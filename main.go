@@ -7,4 +7,6 @@ func main () {
   var nextTrainTime int8
   var isUptownTrain bool
 
-  
+  currentStation = "Aldgate East"
+  nextTrainTime = 4
+  isUptownTrain = true
