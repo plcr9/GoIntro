@@ -10,3 +10,7 @@ func main () {
   currentStation = "Aldgate East"
   nextTrainTime = 4
   isUptownTrain = true
+
+  fmt.Println("Current station:", currentStation)
+  fmt.Println("Next train:", nextTrainTime)
+  fmt.Println("Is uptown:", isUptownTrain)
