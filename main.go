@@ -14,3 +14,7 @@ func main () {
   fmt.Println("Current station:", currentStation)
   fmt.Println("Next train:", nextTrainTime)
   fmt.Println("Is uptown:", isUptownTrain)
+
+  currentStation = "Grand Central"
+  nextTrainTime = 3
+  isUptownTrain = true
