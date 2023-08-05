@@ -15,6 +15,12 @@ func main () {
   fmt.Println("Next train:", nextTrainTime)
   fmt.Println("Is uptown:", isUptownTrain)
 
-  currentStation = "Grand Central"
+  currentStation = "Barking"
   nextTrainTime = 3
-  isUptownTrain = true
+  isUptownTrain = false
+
+  fmt.Println("")
+  fmt.Println("Current station:", currentStation)
+  fmt.Println("Next train:", nextTrainTime)
+  fmt.Println("Is uptown:", isUptownTrain)
+}
