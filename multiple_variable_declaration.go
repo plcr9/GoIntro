@@ -8,3 +8,8 @@ func main() {
   powerLevel = 9001
 
   fmt.Println("magicNum is:", magicNum, "powerLevel is:", powerLevel)
+
+  amount, unit := 10, "doll hairs"
+
+  fmt.Println(amount, unit, ", that's expensive...")
+}
