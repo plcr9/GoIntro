@@ -9,4 +9,7 @@ func main() {
   if lookCombo == robAttempt {
     fmt.Print("The vault is now opened.")
   }
+
+  vaultAmt := 2356468
+  
 }
