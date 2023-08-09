@@ -5,6 +5,10 @@ import (
   "fmt"
 )
 
+func specialComputation(x float64) float64 {
+  return math.Log2(math.Sqrt(math.Tan(x)))
+}
+
 func main() {
   var a, b, c, d float64
   a = .0214
