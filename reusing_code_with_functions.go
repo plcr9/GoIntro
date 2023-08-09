@@ -16,10 +16,10 @@ func main() {
   c = 0.312
   d = 4.001
 
-  a = math.Log2(math.Sqrt(math.Tanh(a)))
-  b = math.Log(math.Sqrt(math.Tanh(b)))
-  c = math.Log(math.Sqrt(math.Tan(c)))
-  d = math.Log2(math.Sqrt(math.Tanh(d)))
+  a = specialComputation(a)
+  b = specialComputation(b)
+  c = specialComputation(c)
+  d = specialComputation(d)
 
   fmt.Println(a, b, c, d)
 }
