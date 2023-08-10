@@ -14,4 +14,6 @@ func count() {
   fmt.Println("Total guests:", number)
 }
 
-
+func main() {
+  count()
+}
