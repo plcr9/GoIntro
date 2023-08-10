@@ -9,4 +9,7 @@ func main() {
   fmt.Println("What is your name?")
   fmt.Scan(&name)
   fmt.Println("Hello", name)
+  var age int
+  fmt.Println("What is your age?")
+  fmt.Scan(&age)
 }
