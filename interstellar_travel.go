@@ -26,6 +26,10 @@ func greenPlanet (planet string) {
   fmt.Println("Welcome to planet", planet)
 }
 
+func cantFly() {
+  fmt.Println("We do not have the available fuel to fly there.")
+}
+
 func main() {
-  greenPlanet("Mars"))
+  cantFly()
 }
