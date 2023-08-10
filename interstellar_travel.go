@@ -2,10 +2,21 @@ package main
 
 import "fmt"
 
-func fuleGauge (fuel int) {
+func fuleGauge(fuel int) {
   fmt.Println("You have", fuel, "gallons of fuel left!")
 }
 
-func main() {
-  fuelGauge(7000)
+func calculateFuel(planet string) int {
+  var fuel int
+  switch planet {
+    case "Venus":
+      fuel = 300000
+    case "Mercury":
+      fuel = 500000
+    case "Mars":
+      fuel = 700000
+    default:
+      fuel = 0
+  }
 }
+
