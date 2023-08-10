@@ -18,5 +18,10 @@ func calculateFuel(planet string) int {
     default:
       fuel = 0
   }
+
+  return fuel
 }
 
+func main() {
+  fmt.Println(calculateFuel("Mars"))
+}
