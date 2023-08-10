@@ -12,4 +12,5 @@ func main() {
   var age int
   fmt.Println("What is your age?")
   fmt.Scan(&age)
+  fmt.Printf("%s is %d years old.\n", name, age)
 }
