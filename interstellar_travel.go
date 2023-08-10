@@ -22,7 +22,7 @@ func calculateFuel(planet string) int {
   return fuel
 }
 
-func greenPlanet (planet string) {
+func greetPlanet (planet string) {
   fmt.Println("Welcome to planet", planet)
 }
 
@@ -30,6 +30,28 @@ func cantFly() {
   fmt.Println("We do not have the available fuel to fly there.")
 }
 
+func flyToPlanet(planet string, fuel int) int {
+  var fuelRemaining, fuelCost int
+  fuelRemaining = fuel
+  fuelCost = calculateFuel(planet)
+
+  if fuelRemaining >= fuelCost {
+    greetPlanet(planet)
+    fuelRemaining -= fuelCost
+  } else {
+    cantFly()
+  }
+
+  return fuelRemaining
+}
+
 func main() {
-  cantFly()
+  var fuel int
+  fuel = 1000000
+
+  var planetChoice string
+  planetChoice = "Venus"
+
+  fuel = flyToPlanet(planetChoice, fuel)
+  fuelGauge(fuel)
 }
