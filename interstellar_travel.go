@@ -22,6 +22,10 @@ func calculateFuel(planet string) int {
   return fuel
 }
 
+func greenPlanet (planet string) {
+  fmt.Println("Welcome to planet", planet)
+}
+
 func main() {
-  fmt.Println(calculateFuel("Mars"))
+  greenPlanet("Mars"))
 }
