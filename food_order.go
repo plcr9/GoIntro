@@ -29,7 +29,12 @@ func main() {
 
   for order != "quit" {
     order = askOrder()
+    if contains(fastfoodMenu, order) {
+      total+=4
+  } else {
+      fmt.Println("This item is not on the menu.")
   }
+}
 
   fmt.Println("The total for the order is", total)
 }
