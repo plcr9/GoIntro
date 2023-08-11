@@ -36,6 +36,11 @@ func main() {
   }
 }
 
+  for amount := total; amount > 0; amount -= 2 {
+    fmt.Println("The amount owed is:", amount)
+    fmt.Println("Handing over a two dollar bill.")
+  }
+                           
   fmt.Println("The total for the order is", total)
 }
 
