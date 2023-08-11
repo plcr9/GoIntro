@@ -11,6 +11,15 @@ func askOrder() (string) {
   return input
 }
 
+func contains(menu []string, order string) bool {
+  for _, item := range menu {
+    if order == item {
+      return true
+    }
+  }
+  return false
+}
+
 func main() {
   fastfoodMenu := []string("Burgers", "Nuggets", "Fries"}
   fmt.Println("The fast food menu has these items:", fastfoodMenu)
