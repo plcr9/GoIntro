@@ -15,4 +15,10 @@ func main() {
   i = 7
 
   fmt.Println("i is set to", i)
+
+  saySomething()
+}
+
+func saySomething() string {
+  return "something"
 }
