@@ -17,6 +17,8 @@ func main() {
   fmt.Println("i is set to", i)
 
   whatWasSaid := saySomething()
+
+  fmt.Println("The function returned", whatWasSaid)
 }
 
 func saySomething() string {
