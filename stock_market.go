@@ -28,4 +28,9 @@ func displayMarket(market []Stock){
 
 func main() {
   rand.Seed(time.Now().UnixNano())
+  GOOG := Stock{"GOOG", 2313.50}
+  AAPL := Stock{"AAPL", 157.28}
+  FB := Stock{"FB", 203.77}
+  TWTR := Stock{"TWTR", 50.00}
+  stockMarket := []Stock{GOOG, AAPL, FB, TWTR}
 }
