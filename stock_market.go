@@ -15,6 +15,10 @@ type Stock struct{
   price float32
 }
 
+func (s *Stock) updateStock(){
+
+}
+
 func main() {
   rand.Seed(time.Now().UnixNano())
 }
