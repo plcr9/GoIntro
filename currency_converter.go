@@ -16,4 +16,6 @@ func main() {
   } else {
     fmt.Println("Please enter a currency (EUR or JPY):")
     fmt.Scan(&currency)
+
+    rate, isValid := currencies[currency]
 }
