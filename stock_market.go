@@ -16,7 +16,7 @@ type Stock struct{
 }
 
 func (s *Stock) updateStock(){
-
+  change := randomNumberGen(-10000, 10000)
 }
 
 func main() {
