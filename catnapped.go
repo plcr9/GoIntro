@@ -6,6 +6,10 @@ import (
   "time"
 )
 
+func getRandomElement(slice) []string) string {
+
+}
+
 func main() {
   rand.Seed(time.Now().UnixNano())
   guests := [5]string{"Anna", "Jose", "Louis", "Tina", "Raymond"}
