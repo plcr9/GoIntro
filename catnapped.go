@@ -20,4 +20,7 @@ func main() {
   fmt.Println("Objects:", objects)
 
   culprit := getRandomElement(guests[:])
+  secretObject := getRandomElement(objects[:])
+
+  fmt.Println(culprit, "hid the cat by putting it in the", secretObject)
 }
