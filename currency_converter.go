@@ -15,4 +15,5 @@ func main() {
     fmt.Println("Invalid dollar amount.")
   } else {
     fmt.Println("Please enter a currency (EUR or JPY):")
+    fmt.Scan(&currency)
 }
