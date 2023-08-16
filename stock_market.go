@@ -20,6 +20,12 @@ func (s *Stock) updateStock(){
   s.price += change
 }
 
+func displayMarket(market []Stock){
+  for i:=0; i<len(market); i++{
+    fmt.Println(market[i])
+  }
+}
+
 func main() {
   rand.Seed(time.Now().UnixNano())
 }
