@@ -18,4 +18,10 @@ func main() {
     fmt.Scan(&currency)
 
     rate, isValid := currencies[currency]
+    if isValid {
+      fmt.Println(dollarAmount, "USD converts to", rate*dollarAmount, currency)
+    } else {
+      fmt.Println("Cannot convert USD to", currency, ".")
+    }
+  }
 }
