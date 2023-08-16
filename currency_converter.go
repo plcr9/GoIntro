@@ -9,4 +9,5 @@ func main() {
 
   var dollarAmount float32
   var currency string
+  fmt.Println("Please enter a dollar amount:")
 }
