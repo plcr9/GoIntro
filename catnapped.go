@@ -9,6 +9,7 @@ import (
 func getRandomElement(slice) []string) string {
   length := len(slice)
   elementIndex := rand.Intn(length)
+  return slice[elementIndex]
 }
 
 func main() {
