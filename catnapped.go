@@ -6,7 +6,7 @@ import (
   "time"
 )
 
-func getRandomElement(slice) []string) string {
+func getRandomElement(slice []string) string {
   length := len(slice)
   elementIndex := rand.Intn(length)
   return slice[elementIndex]
