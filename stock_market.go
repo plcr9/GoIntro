@@ -33,4 +33,10 @@ func main() {
   FB := Stock{"FB", 203.77}
   TWTR := Stock{"TWTR", 50.00}
   stockMarket := []Stock{GOOG, AAPL, FB, TWTR}
+
+  displayMarket(stockMarket)
+  stockMarket[0].updateStock()
+  stockMarket[1].updateStock()
+
+  displayMarket(stockMarket)
 }
