@@ -18,4 +18,6 @@ func main() {
   objects := [4]string{"Toy Chest", "Vase", "Box", "Cat Tree"}
   fmt.Println("Guests:", guests)
   fmt.Println("Objects:", objects)
+
+  culprit := getRandomElement(guests[:])
 }
