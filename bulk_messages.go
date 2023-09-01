@@ -22,3 +22,17 @@ func maxMessages(thresh float64) int {
   }
 }
 
+func getMaxMessagesToSend(costMultiplier float64, maxCostInPennies int) int {
+  actualCostInPennies := 1.0
+  maxMessageToSend := 0
+  for actualCostInPennies <= float64(maxCostInPennies) {
+      maxMessagesToSend++
+      actualCostInPennies *= costMultiplier
+  }
+  return maxMessagesToSend
+}
+
+
+
+
+  
